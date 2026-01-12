@@ -8,9 +8,9 @@ function About() {
       {/* Section 1 */}
       <div className="about-section">
         <div className="about-text">
-          <h1>About IndiaTrips</h1>
+          <h1>About A1 Travel</h1>
           <p>
-            IndiaTrips is a trusted travel booking company providing
+            A1 Travels is a trusted travel booking company providing
             customized and affordable tour packages across India.
             We help travelers explore India comfortably, safely,
             and memorably.
@@ -42,6 +42,8 @@ function About() {
             <li>✔ Customized travel packages</li>
             <li>✔ Affordable pricing</li>
             <li>✔ Dedicated customer support</li>
+            <li>✔ Dedicated Tour Guide</li>
+
           </ul>
         </div>
 
