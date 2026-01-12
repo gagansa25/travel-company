@@ -153,3 +153,52 @@ button {
   padding: 15px;
   border-radius: 8px;
 }
+.about-page {
+  padding: 40px;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.about-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h1,
+.about-text h2 {
+  color: #0b5ed7;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-text ul {
+  padding-left: 20px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .about-section,
+  .about-section.reverse {
+    flex-direction: column;
+  }
+}
