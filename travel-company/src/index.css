@@ -611,3 +611,26 @@ button {
 .nav-links.open ~ .hamburger {
   color: #ffdddd;
 }
+.home-packages {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.home-packages-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.home-packages-header h2 {
+  color: #0b5ed7;
+}
+
+.home-packages-header button {
+  background: transparent;
+  border: none;
+  color: #0b5ed7;
+  font-weight: 600;
+  cursor: pointer;
+}
