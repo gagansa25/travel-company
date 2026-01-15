@@ -25,18 +25,17 @@ function Navbar() {
           </Link>
         </div>
 
-        {/* Hamburger */}
+        {/* Hamburger / Close Icon */}
         <div className="hamburger" onClick={() => setOpen(!open)}>
-          ☰
+          {open ? "✖" : "☰"}
         </div>
 
         {/* Links */}
         <div className={`nav-links ${open ? "open" : ""}`}>
-          <Link className={location.pathname === "/" ? "active" : ""} to="/">Home</Link>
-          <Link className={location.pathname === "/about" ? "active" : ""} to="/about">About</Link>
-          <Link className={location.pathname === "/packages" ? "active" : ""} to="/packages">Packages</Link>
-          <Link className={location.pathname === "/contact" ? "active" : ""} to="/contact">Contact</Link>
-
+          <Link to="/" onClick={() => setOpen(false)}>Home</Link>
+          <Link to="/about" onClick={() => setOpen(false)}>About</Link>
+          <Link to="/packages" onClick={() => setOpen(false)}>Packages</Link>
+          <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
           {!isAuth ? (
             <>
               <button className="auth-btn" onClick={() => setShowAuth(true)}>

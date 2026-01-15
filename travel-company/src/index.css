@@ -594,3 +594,20 @@ button {
 .package-search button:hover {
   background: #084298;
 }
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+  user-select: none;
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+.nav-links.open ~ .hamburger {
+  color: #ffdddd;
+}
