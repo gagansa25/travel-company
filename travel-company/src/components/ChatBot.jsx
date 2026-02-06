@@ -22,7 +22,7 @@ function ChatBot() {
     if (msg.includes("goa"))
       return "Goa package: 5 Days / 4 Nights starting from ₹18,000 🌴";
     if (msg.includes("contact"))
-      return "You can call us at 📞 9938069896";
+      return "You can call us at 📞 9938767653";
     if (msg.includes("book"))
       return "Sure 😊 Please tell me your destination and travel dates.";
 
