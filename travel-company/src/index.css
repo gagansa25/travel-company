@@ -634,3 +634,36 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
+/* Booking  */
+.booking-page {
+  min-height: 100vh;
+  background: black;
+  color: white;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input {
+  padding: 12px;
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 6px;
+}
+
+.booking-form button {
+  padding: 12px;
+  background: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,8 +1,8 @@
 import { useState } from "react";
-
-
+import { useNavigate } from "react-router-dom";
 function PackageCard({ data }) {
   const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <>
@@ -21,7 +21,19 @@ function PackageCard({ data }) {
 
         <p className="price">{data.price}</p>
 
-        <button onClick={() => setOpen(true)}>Explore More</button>
+        <button
+  onClick={() =>
+    navigate("/booking", {
+      state: {
+        destination: data.place,
+        price: data.price,
+        image: data.image,
+      },
+    })
+  }
+>
+  Book Now
+</button>
       </div>
 
       {open && (

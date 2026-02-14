@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import AuthModal from "./AuthModal";
@@ -36,6 +37,7 @@ function Navbar() {
           <Link to="/about" onClick={() => setOpen(false)}>About</Link>
           <Link to="/packages" onClick={() => setOpen(false)}>Packages</Link>
           <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
+          
           {!isAuth ? (
             <>
               <button className="auth-btn" onClick={() => setShowAuth(true)}>

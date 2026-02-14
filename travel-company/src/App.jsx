@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Packages from "./pages/Packages";
 import Contact from "./pages/Contact";
 import ChatBot from "./components/ChatBot";
+import Booking from "./pages/Booking";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/booking" element={<Booking />} />
       </Routes>
       <Footer />
       <ChatBot />
