@@ -18,9 +18,27 @@ function ChatBot() {
     if (msg.includes("package"))
       return "We offer Goa, Kashmir,Agra,Manali,Mumbai,Shimla, Andaman Island, Darjeeling,Kerala & Rajasthan tour packages 🇮🇳";
     if (msg.includes("price"))
-      return "Our packages start from ₹15,000 depending on destination.";
+      return "Our packages start from ₹12,000 depending on destination.";
     if (msg.includes("goa"))
       return "Goa package: 5 Days / 4 Nights starting from ₹18,000 🌴";
+    if (msg.includes("agra"))
+      return "Agra package: 3 Days / 3 Nights starting from ₹12,000 🌴";
+    if (msg.includes("kashmir"))
+      return "Kashmir package: 6 Days / 5 Nights starting from ₹25,000 🏔️";
+    if (msg.includes("manali"))
+      return "Manali package: 5 Days / 4 Nights starting from ₹22,000 🏔️";    
+    if (msg.includes("mumbai"))
+      return "Mumbai package: 4 Days / 3 Nights starting from ₹15,000 🌆"
+    if (msg.includes("shimla"))
+      return "Shimla package: 6 Days / 5 Nights starting from ₹28,000 🏔️";
+    if (msg.includes("andaman"))
+      return "Andaman package: 5 Days / 4 Nights starting from ₹35,000 🏝️";
+    if (msg.includes("darjeeling"))
+      return "Darjeeling package: 5 Days / 4 Nights starting from ₹24,000 🌄";
+    if (msg.includes("kerala"))
+      return "Kerala package: 5 Days / 4 Nights starting from ₹20,000 🌴";
+    if (msg.includes("rajasthan"))
+      return "Rajasthan package: 7 Days / 6 Nights starting from ₹30,000 🏜️";
     if (msg.includes("contact"))
       return "You can call us at 📞 9938767653";
     if (msg.includes("book"))
