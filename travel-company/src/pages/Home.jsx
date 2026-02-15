@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import HomePackagesSlider from "../components/HomePackagesSlider";
 
 function Home() {
@@ -19,13 +19,13 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button>✨ Plan my holiday</button>
-            <button>🏔️ Show me amazing places</button>
+             <button>✨ Plan my holiday</button>
+            <Link to="/packages"><button>🏔️ Show me amazing places</button></Link>
             <button>🚗 Build my road trip</button>
           </div>
         </div>
       </div>
-      {/* PACKAGE SLIDER */}
+      {/* PACKAGE SLIDER */}  
       <HomePackagesSlider />
     </>
   );

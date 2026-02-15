@@ -16,7 +16,7 @@ function ChatBot() {
     msg = msg.toLowerCase();
 
     if (msg.includes("package"))
-      return "We offer Goa, Kashmir, Kerala & Rajasthan tour packages 🇮🇳";
+      return "We offer Goa, Kashmir,Agra,Manali,Mumbai,Shimla, Andaman Island, Darjeeling,Kerala & Rajasthan tour packages 🇮🇳";
     if (msg.includes("price"))
       return "Our packages start from ₹15,000 depending on destination.";
     if (msg.includes("goa"))
